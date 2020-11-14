@@ -96,7 +96,7 @@ class MagazineSummary
   def summary
     <<EOM
     Title: #{row[:title]}
-    Author: #{author[:firstname]} ${author[:lastname]}
+    Author: #{author[:firstname]} #{author[:lastname]}
     ISBN: #{row[:isbn]}
     Published At: #{row[:publishedat]}
 EOM
