@@ -109,7 +109,7 @@ end
 
 class Magazine < Publishment
   def initialize(row)
-    @publishment = MagazineSummary.new(row).summary
+    @publishment = MagazineSummary.new(row)
   end
 end
 
